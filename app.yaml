@@ -1,0 +1,12 @@
+application: helloworld-aleuehara
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /.*
+#  script: helloworld.py
+#  script: app-helloworld.py
+#  script: user-helloworld.py
+#  script: form-helloworld.py
+  script: datastore-helloworld.py

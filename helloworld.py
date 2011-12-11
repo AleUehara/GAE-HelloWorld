@@ -1,0 +1,6 @@
+print 'Content-Type: text/plain'
+print ''
+print 'Hello, world!'
+print 'teste'
+print '<br>'
+print '<h1>TESTES</h1>'
